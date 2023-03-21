@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vins d'exception en ligne</title>
+
+
+    <!-- Polices utilisés avec "Font awesome"  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link avec le CSS  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Ajout du favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="wine wine.png"/>
+
+</head>
+<body>
+    
+<!-- header section  -------------------------------------------------------------------------------------------->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt=""> <!-- Logo entreprise  -->
+    </a>
+
+ <!-- le # pour renvoyer à l'endroit souhaité -->
+    <nav class="navbar">
+        <a href="#acceuil">Acceuil</a>
+        <a href="#about">À propos</a>
+        <a href="#populaires">Populaires</a>
+        <a href="#produits">Produits</a>
+        <a href="#avis">Avis</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Articles</a>
+    </nav>
+
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div> <!-- loupe  -->
+        <div class="fas fa-shopping-cart" id="cart-btn"></div> <!-- cadis panier  -->
+        <div class="fas fa-bars" id="menu-btn"></div>   <!-- pour dérouler recherche + panier  -->
+
+    </div>
+
+ <!-- Barre de recherche dans loupe  ------------>
+    <div class="search-form">
+        <input type="search" id="search-box" 
+        placeholder="Que recherchez-vous ?"> 
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+ <!-- Items dans le panier -------->
+
+    <div class="cart-items-container"> 
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <div class="content">
+                <h3>Bouteille 1</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <div class="content">
+                <h3>Bouteille 2</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <div class="content">
+                <h3>Bouteille 3</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Valider panier</a>
+    </div>
+
+</header>
+
+<!-- Fin header section  --------------------------------------------------------------------------------------->
+
+<!-- Acceuil section starts  -->
+
+<section class="acceuil" id="acceuil">
+
+    <div class="content">
+        <h3>Découvrez l'univers du vin rouge </h3>
+        <p>Entre villages médiévaux, forêts, champs et paysages de montagne, les vignes s’expriment sur des terroirs variés qui 
+            donnent naissance à des vins rouges d'exception qui ont leur caractère propre. 
+</p>
+        <a href="https://www.vins-bourgogne.fr/" class="btn">Acheter ici</a>
+    </div>
+
+</section>
+
+
+<!-- About section starts  -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"><span>À propos de </span> nous </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/explication vin.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>La Vignoble de la vallée du Rhône
+            <p> Le vignoble de la Vallée du Rhône s'étend sur les deux rives du Rhône de Vienne à Avignon entre le Massif Central et les Alpes .
+                L'aire délimitée d'appellation d'origine contrôlée "Côtes-du-Rhône" concerne les départements du Rhône, de la Loire, de l' Ardèche, de la Drôme, du Gard et du Vaucluse.
+                Le vignoble se répartit en deux grandes zones viticoles, qui se différencient par leurs terroirs, leur encépagement et la nature des vins produits. 
+                
+        </div>
+    </div>
+
+    <a href="https://www.vinsvignesvignerons.com/var/plain_site/storage/images/media/images/carte-des-regions-viticoles-de-la-vallee-du-rhone-c-m.crivellaro/65017-1-fre-FR/Carte-des-regions-viticoles-de-la-Vallee-du-Rhone-C-M.CRIVELLARO.jpg" 
+    target="_blank" class="bouton">Cliquez ici pour voir la maps</a>
+
+</section>
+
+
+<!-- menu section starts  -->
+
+<section class="populaires" id="populaires">
+
+
+    <h1 class="heading"> Vins  <span>d'exception </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/menu-1.png"">
+            <h3>Hermitage Cuvée Cathelin Jean-Louis Chave 1998</h3>
+            <div class="price"> 2 900€ </div>
+            <a href="#" class="btn">Commander</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-2.png" alt="">
+            <h3>Châteauneuf-du-Pape Château Rayas 1978 </h3>
+            <div class="price">1 260 € </div>
+            <a href="#" class="btn">Commander</a>
+        </div>
+
+        <div class="box">
+            <img src="images/menu-3.png" alt="">
+            <h3>Hermitage La Chapelle Paul Jaboulet Aîné 1971</h3>
+            <div class="price">700 € </div>
+            <a href="#" class="btn">Commander</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- menu section de fin -->
+
+<section class="produits" id="produits">
+
+    <h1 class="heading"> Notre <span>selection</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Vin rouge</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section starts  -->
+
+<section class="avis" id="avis">
+
+    <h1 class="heading"> avis <span>clients</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Depuis que l'Elysée se fournit via ce site, je peux maintenant déguster des vins d'une qualité remarquable.
+                Moi même ainsi que le gouvernement vous conseille ce site. 
+            </p>
+            <img src="images/Macron.jpg" class="user" alt="">
+            <h3>Emmanuel Macron</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p> Mes restaurants se fournissent depuis maintenant deux années exclusivement des vins proposés par Guillaume,
+                 les clients en sont ravis, et je me permet même d'en garder pour la maison.</p>
+            <img src="images/Etchebest.jpg" class="user" alt="">
+            <h3>Philippe Etchebest</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>De loin les meilleurs vins que j'ai bu dans l'espace, la livraison a été rapide et la NASA 
+                a fortement apprécié certaines bouteilles, je recommande !</p>
+            <img src="images/Pesquet.jpg" class="user" alt="">
+            <h3>Thomas Pesquet</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Contactez</span> nous</h1>
+
+    <div class="row">
+
+       
+        
+       
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.76457406691!2d2.276994733569231!3d48.85894658152443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sfr!2sfr!4v1671649773496!5m2!1sfr!2sfr" 
+        width="450" height="450" allowfullscreen="" loading="lazy"></iframe>
+      
+        <form action="">
+            <h3>CONTACT </h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="Nom ">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="Téléphone">
+            </div>
+            <input type="submit" value="contactez-nous" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> nos <span>articles</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Tour argent.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="https://tourdargent.com/la-cave/" class="title">1 500m² de cave à La Tour d’Argent, Paris</a>
+                <p>On y trouve un panel impressionnant des plus grandes cuvées du XIXe siècle, ainsi que tous les plus grands millésimes des 
+                    domaines et châteaux d’exceptions, disponibles dans un large choix de format.</p>
+                <a href="https://tourdargent.com/la-cave/" class="btn">Lire l'article</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/Monte carlo.jpeg" alt="">
+            </div>
+            <div class="content">
+                <a href="https://www.montecarlosbm.com/fr/wellness/hotel-de-paris-monte-carlo/les-caves-de-lhotel-de-paris-monte-carlo" class="title">Les Caves de l’Hôtel de Paris Monte-Carlo</a>
+                <p>Sous les jardins fleuris de l’un des hôtels les plus mythiques du monde, il est un paradis qui s’abrite du soleil avec obstination : les Caves de l’Hôtel de Paris Monte-Carlo.</p>
+                <a href="https://www.montecarlosbm.com/fr/wellness/hotel-de-paris-monte-carlo/les-caves-de-lhotel-de-paris-monte-carlo" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">tasty and refreshing coffee</a>
+                <span>by admin / 21st may, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit">Crée par <span>Guillaume GATILLE</span> | 2022</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
